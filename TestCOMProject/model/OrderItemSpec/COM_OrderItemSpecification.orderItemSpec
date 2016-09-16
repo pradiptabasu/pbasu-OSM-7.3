@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.oracle.com/communications/sce/osm/model/orchestration" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:ord="http://xmlns.oracle.com/communications/sce/osm/model/order" xmlns:osm="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xsi:type="OrderItemSpec" name="COM_OrderItemSpecification">
   <com:displayName>COM_OrderItemSpecification</com:displayName>
-  <com:saveVersion>17</com:saveVersion>
+  <com:saveVersion>19</com:saveVersion>
   <com:id>crraK3cgSiKymQkvxRvHcw</com:id>
   <namespace>testComProject.com</namespace>
   <useComplexDataType>false</useComplexDataType>
@@ -98,6 +98,18 @@ fn:normalize-space(osm7dd:RequestedDeliveryDateTime/text())</osm:xquery>
     <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
       <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;;&#xD;
 .</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="ParentLineID">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;;&#xD;
+fn:normalize-space(osm7dd:parentLineID/text())</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="RootParentLineID">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;;&#xD;
+fn:normalize-space(osm7dd:rootParentLineID/text())</osm:xquery>
     </nodesetExpression>
   </property>
   <orderTemplateContribution/>

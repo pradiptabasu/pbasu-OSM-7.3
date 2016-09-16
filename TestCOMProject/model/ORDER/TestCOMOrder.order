@@ -494,6 +494,12 @@
     <ord:nodeExtension>
       <ord:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
     </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/ParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/RootParentLineID</ord:path>
+    </ord:nodeExtension>
     <ord:orderData>
       <com:entity>TestCOMProject</com:entity>
       <com:entityType>xsd</com:entityType>
@@ -504,6 +510,48 @@
       <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
       <com:baseElement>string</com:baseElement>
       <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    </ord:orderData>
+    <ord:orderData>
+      <com:entity>TestCOMProject</com:entity>
+      <com:entityType>xsd</com:entityType>
+      <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+      <com:element>ControlData</com:element>
+      <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+      <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+      <com:baseElement>(Reusable Structure)</com:baseElement>
+      <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+      <ord:childNode>
+        <com:entity>TestCOMProject</com:entity>
+        <com:entityType>xsd</com:entityType>
+        <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+        <com:element>ControlData/OrderItem</com:element>
+        <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+        <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+        <com:baseElement>OrderItemType</com:baseElement>
+        <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:baseNamespace>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ParentLineID</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ParentLineID</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/RootParentLineID</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>RootParentLineID</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+      </ord:childNode>
     </ord:orderData>
   </ord:orderTemplate>
   <ord:rule name="null_rule"/>

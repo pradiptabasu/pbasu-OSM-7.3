@@ -12,7 +12,7 @@
   <minDuration/>
   <defaultDuration/>
   <executedByTask>
-    <com:entity>BillingProcess</com:entity>
+    <com:entity>InitiateBillingProcess</com:entity>
     <com:entityType>process</com:entityType>
     <com:relationship>oracle.communications.sce.osm.orchestration.orderComponentSpec.executedByTask</com:relationship>
   </executedByTask>
@@ -162,7 +162,7 @@
           <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
           <com:element>ControlData/OrderItem/ProductCode</com:element>
           <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
-          <com:elementName>ProductCode</com:elementName>
+          <com:elementName>ControlData/OrderItem/ProductCode</com:elementName>
           <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
           <com:baseElement>string</com:baseElement>
           <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
@@ -272,7 +272,7 @@
           <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
           <com:element>ControlData/Functions/InitiateBillingFunction</com:element>
           <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
-          <com:elementName>InitiateBillingFunction</com:elementName>
+          <com:elementName>ControlData/Functions/InitiateBillingFunction</com:elementName>
           <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
           <com:baseElement>FunctionType</com:baseElement>
           <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:baseNamespace>
@@ -282,7 +282,7 @@
             <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
             <com:element>ControlData/Functions/InitiateBillingFunction/componentKey</com:element>
             <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
-            <com:elementName>ControlData/Functions/InitiateBillingFunction/componentKey</com:elementName>
+            <com:elementName>componentKey</com:elementName>
             <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
             <com:baseElement>string</com:baseElement>
             <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>

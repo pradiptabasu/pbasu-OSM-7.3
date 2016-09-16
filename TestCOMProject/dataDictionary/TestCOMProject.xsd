@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xs:schema xmlns:Q1="http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary" xmlns:tns="http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject">
-	<xs:import namespace="http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary" schemaLocation="../../OracleComms_OSM_CommonDataDictionary/dataDictionary/OracleComms_OSM_CommonDataDictionary.xsd"/>
-	<xs:simpleType name="OrderID">
+		<xs:simpleType name="OrderID">
 		<xs:restriction base="xs:string">
 			<xs:minLength value="0"/>
 			<xs:maxLength value="40"/>
@@ -76,6 +75,22 @@
             <xs:extension base="xs:anyType"/>
           </xs:complexContent>
         </xs:complexType>
+      </xs:element>
+                    <xs:element maxOccurs="1" minOccurs="0" name="ParentLineID">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="0"/>
+            <xs:maxLength value="40"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+            <xs:element maxOccurs="1" minOccurs="0" name="RootParentLineID">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="0"/>
+            <xs:maxLength value="40"/>
+          </xs:restriction>
+        </xs:simpleType>
       </xs:element>
         </xs:sequence>
 	</xs:complexType>

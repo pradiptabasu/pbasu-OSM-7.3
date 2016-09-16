@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aut="http://xmlns.oracle.com/communications/sce/osm/model/process/task/automation" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:task="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xmlns="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xsi:type="task:manualTaskType" name="BillingDebugTask">
+<com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aut="http://xmlns.oracle.com/communications/sce/osm/model/process/task/automation" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:task="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xmlns="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xsi:type="task:manualTaskType" name="FulfillBillingDebugTask">
   <com:displayName>BillingDebugTask</com:displayName>
   <com:saveVersion>12</com:saveVersion>
   <com:id>WpwjjlAxR4e72mchiKJZiw</com:id>
@@ -206,122 +206,6 @@
           <task:childRefNode>false</task:childRefNode>
         </task:childNode>
       </task:childNode>
-      <task:childNode>
-        <com:entity>TestCOMOrder</com:entity>
-        <com:entityType>order</com:entityType>
-        <com:relationship>ora.task.orderTemplateRef</com:relationship>
-        <com:element>/ControlData/Functions/InitiateBillingFunction</com:element>
-        <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/InitiateBillingFunction/componentKey</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        </task:childNode>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/InitiateBillingFunction/calculatedStartDate</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        </task:childNode>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/InitiateBillingFunction/duration</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        </task:childNode>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-          <task:childNode>
-            <com:entity>TestCOMOrder</com:entity>
-            <com:entityType>order</com:entityType>
-            <com:relationship>ora.task.orderTemplateRef</com:relationship>
-            <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef</com:element>
-            <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ProductCode</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ProductName</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ProductDesc</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ProductClass</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ProductSpec</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/LineID</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/BundleID</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/LineItemPayload</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childRefNode>true</task:childRefNode>
-          </task:childNode>
-          <task:childRefNode>false</task:childRefNode>
-        </task:childNode>
-      </task:childNode>
     </task:childNode>
   </task:orderTemplateRef>
   <task:orderTemplateRef>
@@ -454,71 +338,6 @@
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/componentKey</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/calculatedStartDate</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/duration</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ProductCode</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ProductName</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ProductDesc</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ProductClass</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ProductSpec</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/LineID</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/BundleID</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
     <task:path>/xmlOrderData</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
@@ -545,16 +364,6 @@
   </task:viewNodeExtension>
   <task:viewNodeExtension>
     <task:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/LineItemPayload</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/LineItemPayload</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
