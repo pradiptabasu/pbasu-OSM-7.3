@@ -115,238 +115,6 @@
         <com:entity>TestCOMOrder</com:entity>
         <com:entityType>order</com:entityType>
         <com:relationship>ora.task.orderTemplateRef</com:relationship>
-        <com:element>/ControlData/Functions/InstallOrderFunction</com:element>
-        <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/InstallOrderFunction/componentKey</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        </task:childNode>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/InstallOrderFunction/calculatedStartDate</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        </task:childNode>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/InstallOrderFunction/duration</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        </task:childNode>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/InstallOrderFunction/orderItem</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-          <task:childNode>
-            <com:entity>TestCOMOrder</com:entity>
-            <com:entityType>order</com:entityType>
-            <com:relationship>ora.task.orderTemplateRef</com:relationship>
-            <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef</com:element>
-            <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductCode</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductName</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductDesc</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductClass</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductSpec</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineID</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/BundleID</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineItemPayload</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childRefNode>true</task:childRefNode>
-          </task:childNode>
-          <task:childRefNode>false</task:childRefNode>
-        </task:childNode>
-      </task:childNode>
-      <task:childNode>
-        <com:entity>TestCOMOrder</com:entity>
-        <com:entityType>order</com:entityType>
-        <com:relationship>ora.task.orderTemplateRef</com:relationship>
-        <com:element>/ControlData/Functions/ShipOrderFunction</com:element>
-        <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/ShipOrderFunction/componentKey</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        </task:childNode>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/ShipOrderFunction/calculatedStartDate</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        </task:childNode>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/ShipOrderFunction/duration</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-        </task:childNode>
-        <task:childNode>
-          <com:entity>TestCOMOrder</com:entity>
-          <com:entityType>order</com:entityType>
-          <com:relationship>ora.task.orderTemplateRef</com:relationship>
-          <com:element>/ControlData/Functions/ShipOrderFunction/orderItem</com:element>
-          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-          <task:childNode>
-            <com:entity>TestCOMOrder</com:entity>
-            <com:entityType>order</com:entityType>
-            <com:relationship>ora.task.orderTemplateRef</com:relationship>
-            <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef</com:element>
-            <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductCode</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductName</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductDesc</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductClass</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductSpec</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/LineID</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/BundleID</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childNode>
-              <com:entity>TestCOMOrder</com:entity>
-              <com:entityType>order</com:entityType>
-              <com:relationship>ora.task.orderTemplateRef</com:relationship>
-              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/LineItemPayload</com:element>
-              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
-              <task:childRefNode>true</task:childRefNode>
-            </task:childNode>
-            <task:childRefNode>true</task:childRefNode>
-          </task:childNode>
-          <task:childRefNode>false</task:childRefNode>
-        </task:childNode>
-      </task:childNode>
-      <task:childNode>
-        <com:entity>TestCOMOrder</com:entity>
-        <com:entityType>order</com:entityType>
-        <com:relationship>ora.task.orderTemplateRef</com:relationship>
         <com:element>/ControlData/Functions/FulfillBillingFunction</com:element>
         <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
         <task:childNode>
@@ -451,6 +219,22 @@
               <com:entityType>order</com:entityType>
               <com:relationship>ora.task.orderTemplateRef</com:relationship>
               <com:element>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/LineItemPayload</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ParentLineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/RootParentLineID</com:element>
               <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
               <task:childRefNode>true</task:childRefNode>
             </task:childNode>
@@ -570,6 +354,22 @@
               <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
               <task:childRefNode>true</task:childRefNode>
             </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ParentLineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/RootParentLineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
             <task:childRefNode>true</task:childRefNode>
           </task:childNode>
           <task:childRefNode>false</task:childRefNode>
@@ -686,6 +486,286 @@
               <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
               <task:childRefNode>true</task:childRefNode>
             </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/ParentLineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/RootParentLineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childRefNode>true</task:childRefNode>
+          </task:childNode>
+          <task:childRefNode>false</task:childRefNode>
+        </task:childNode>
+      </task:childNode>
+      <task:childNode>
+        <com:entity>TestCOMOrder</com:entity>
+        <com:entityType>order</com:entityType>
+        <com:relationship>ora.task.orderTemplateRef</com:relationship>
+        <com:element>/ControlData/Functions/ShipOrderFunction</com:element>
+        <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        <task:childNode>
+          <com:entity>TestCOMOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/ShipOrderFunction/componentKey</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>TestCOMOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/ShipOrderFunction/calculatedStartDate</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>TestCOMOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/ShipOrderFunction/duration</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>TestCOMOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/ShipOrderFunction/orderItem</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+          <task:childNode>
+            <com:entity>TestCOMOrder</com:entity>
+            <com:entityType>order</com:entityType>
+            <com:relationship>ora.task.orderTemplateRef</com:relationship>
+            <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef</com:element>
+            <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductCode</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductName</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductDesc</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductClass</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductSpec</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/LineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/BundleID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/LineItemPayload</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ParentLineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/RootParentLineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childRefNode>true</task:childRefNode>
+          </task:childNode>
+          <task:childRefNode>false</task:childRefNode>
+        </task:childNode>
+      </task:childNode>
+      <task:childNode>
+        <com:entity>TestCOMOrder</com:entity>
+        <com:entityType>order</com:entityType>
+        <com:relationship>ora.task.orderTemplateRef</com:relationship>
+        <com:element>/ControlData/Functions/InstallOrderFunction</com:element>
+        <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        <task:childNode>
+          <com:entity>TestCOMOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/InstallOrderFunction/componentKey</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>TestCOMOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/InstallOrderFunction/calculatedStartDate</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>TestCOMOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/InstallOrderFunction/duration</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>TestCOMOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/InstallOrderFunction/orderItem</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+          <task:childNode>
+            <com:entity>TestCOMOrder</com:entity>
+            <com:entityType>order</com:entityType>
+            <com:relationship>ora.task.orderTemplateRef</com:relationship>
+            <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef</com:element>
+            <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductCode</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductName</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductDesc</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductClass</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductSpec</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/BundleID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineItemPayload</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ParentLineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
+            <task:childNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>ora.task.orderTemplateRef</com:relationship>
+              <com:element>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/RootParentLineID</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+              <task:childRefNode>true</task:childRefNode>
+            </task:childNode>
             <task:childRefNode>true</task:childRefNode>
           </task:childNode>
           <task:childRefNode>false</task:childRefNode>
@@ -751,137 +831,32 @@
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
+    <task:path>/OrderID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/OrderItem/RequestedDeliveryDateTime</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/OrderItem/LineItemPayload</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/OrderItem/ParentLineID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/OrderItem/RootParentLineID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
     <task:path>/ControlData/Functions</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/componentKey</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/calculatedStartDate</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/duration</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductCode</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductName</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductDesc</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductClass</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductSpec</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineID</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/BundleID</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/componentKey</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/calculatedStartDate</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/duration</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductCode</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductName</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductDesc</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductClass</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductSpec</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/LineID</task:path>
-    <task:editable>true</task:editable>
-    <task:defaultValue></task:defaultValue>
-  </task:viewNodeExtension>
-  <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/BundleID</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
@@ -951,6 +926,26 @@
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/LineItemPayload</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ParentLineID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/RootParentLineID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
     <task:path>/ControlData/Functions/InitiateBillingFunction</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
@@ -1012,6 +1007,26 @@
   </task:viewNodeExtension>
   <task:viewNodeExtension>
     <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/BundleID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/LineItemPayload</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ParentLineID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/RootParentLineID</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
@@ -1081,27 +1096,87 @@
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/OrderID</task:path>
+    <task:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/OrderItem/RequestedDeliveryDateTime</task:path>
+    <task:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/LineItemPayload</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/OrderItem/LineItemPayload</task:path>
+    <task:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/ParentLineID</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</task:path>
+    <task:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/RootParentLineID</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineItemPayload</task:path>
+    <task:path>/ControlData/Functions/ShipOrderFunction</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/componentKey</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/calculatedStartDate</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/duration</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductCode</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductName</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductDesc</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductClass</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductSpec</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/LineID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/BundleID</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
@@ -1116,42 +1191,97 @@
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</task:path>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ParentLineID</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/LineItemPayload</task:path>
+    <task:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/RootParentLineID</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</task:path>
+    <task:path>/ControlData/Functions/InstallOrderFunction</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/LineItemPayload</task:path>
+    <task:path>/ControlData/Functions/InstallOrderFunction/componentKey</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</task:path>
+    <task:path>/ControlData/Functions/InstallOrderFunction/calculatedStartDate</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/LineItemPayload</task:path>
+    <task:path>/ControlData/Functions/InstallOrderFunction/duration</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/OrderItem/ParentLineID</task:path>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
   <task:viewNodeExtension>
-    <task:path>/ControlData/OrderItem/RootParentLineID</task:path>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductCode</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductName</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductDesc</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductClass</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ProductSpec</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/BundleID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineItemPayload</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ParentLineID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/RootParentLineID</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>

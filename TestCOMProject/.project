@@ -4,6 +4,7 @@
 	<comment></comment>
 	<projects>
 		<project>TestModelProject</project>
+		<project>OracleComms_OSM_CommonDataDictionary</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

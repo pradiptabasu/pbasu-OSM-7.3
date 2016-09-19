@@ -27,9 +27,9 @@
             <osm7dd:productCode>MOT200</osm7dd:productCode>
             <osm7dd:class>Mobile</osm7dd:class>
             <osm7dd:MobileNum>07760613421</osm7dd:MobileNum>
-            <osm7dd:lineID>O1</osm7dd:lineID>
-            <osm7dd:parentLineID></osm7dd:parentLineID>
-            <osm7dd:rootParentLineID></osm7dd:rootParentLineID>
+            <osm7dd:lineID>1</osm7dd:lineID>
+            <osm7dd:parentLineID>1</osm7dd:parentLineID>
+            <osm7dd:rootParentLineID>1</osm7dd:rootParentLineID>
             <osm7dd:BundleID>00</osm7dd:BundleID>
             <osm7dd:RequestedDeliveryDateTime>2016-02-02T13:02:36</osm7dd:RequestedDeliveryDateTime>
         </osm7dd:OrderLine>
@@ -39,9 +39,9 @@
             <osm7dd:productCode>SAMTOC</osm7dd:productCode>
             <osm7dd:class>Mobile</osm7dd:class>
             <osm7dd:MobileNum>07760613422</osm7dd:MobileNum>
-            <osm7dd:lineID>O2</osm7dd:lineID>
-            <osm7dd:parentLineID></osm7dd:parentLineID>
-            <osm7dd:rootParentLineID></osm7dd:rootParentLineID>
+            <osm7dd:lineID>2</osm7dd:lineID>
+            <osm7dd:parentLineID>2</osm7dd:parentLineID>
+            <osm7dd:rootParentLineID>2</osm7dd:rootParentLineID>
             <osm7dd:BundleID>00</osm7dd:BundleID>
             <osm7dd:RequestedDeliveryDateTime>2016-02-02T13:02:36</osm7dd:RequestedDeliveryDateTime>
         </osm7dd:OrderLine>
@@ -51,9 +51,9 @@
             <osm7dd:productCode>ADSL8</osm7dd:productCode>
             <osm7dd:class>DSL</osm7dd:class>
             <osm7dd:staticIP>1.1.1.1</osm7dd:staticIP>
-            <osm7dd:lineID>O3</osm7dd:lineID>
-            <osm7dd:parentLineID></osm7dd:parentLineID>
-            <osm7dd:rootParentLineID></osm7dd:rootParentLineID>
+            <osm7dd:lineID>3</osm7dd:lineID>
+            <osm7dd:parentLineID>3</osm7dd:parentLineID>
+            <osm7dd:rootParentLineID>3</osm7dd:rootParentLineID>
             <osm7dd:BundleID>01</osm7dd:BundleID>
             <osm7dd:RequestedDeliveryDateTime>2016-02-02T13:02:36</osm7dd:RequestedDeliveryDateTime>
         </osm7dd:OrderLine>        

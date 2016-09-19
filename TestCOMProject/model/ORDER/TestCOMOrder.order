@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:ord="http://xmlns.oracle.com/communications/sce/osm/model/order" xmlns="http://xmlns.oracle.com/communications/sce/osm/model/order" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xsi:type="ord:orderType" name="TestCOMOrder">
   <com:displayName>TestCOMOrder</com:displayName>
-  <com:saveVersion>13</com:saveVersion>
-  <com:id>nqvhKdVxRcqygw9fQzvwNQ</com:id>
+  <com:saveVersion>5</com:saveVersion>
+  <com:id>Vk4Lg5hRQgKPwDTNYkDGPw</com:id>
   <ord:orderSource>
     <ord:creationTask>
       <com:entity>TestComCreationTask</com:entity>
@@ -17,253 +17,7 @@
   </ord:orderSource>
   <ord:orderTemplate>
     <ord:nodeExtension>
-      <ord:path>/OrderID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
       <ord:path>/ControlData</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/OrderItemType</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/OrderItemType/ProductCode</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/OrderItemType/ProductName</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/OrderItemType/ProductDesc</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/OrderItemType/ProductClass</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/OrderItemType/ProductSpec</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/OrderItemType/LineID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/OrderItemType/BundleID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FunctionType</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunctionType</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/componentKey</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/calculatedStartDate</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/duration</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/transformedOrderItem</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/ExternalFulfillmentState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/FunctionProcessingState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemref</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemref/ProductCode</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemref/ProductName</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemref/ProductDesc</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemref/ProductClass</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemref/ProductSpec</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemref/LineID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemref/BundleID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/transformedOrderItem/ExternalFulfillmentState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/transformedOrderItem/FunctionProcessingState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FunctionType/componentKey</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FunctionType/calculatedStartDate</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FunctionType/duration</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FunctionType/orderItem</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FunctionType/orderItem/ExternalFulfillmentState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FunctionType/orderItem/FunctionProcessingState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemref</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemref/ProductCode</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemref/ProductName</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemref/ProductDesc</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemref/ProductClass</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemref/ProductSpec</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemref/LineID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemref/BundleID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FunctionType/transformedOrderItem</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FunctionType/transformedOrderItem/ExternalFulfillmentState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FunctionType/transformedOrderItem/FunctionProcessingState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunctionType/componentKey</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunctionType/calculatedStartDate</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunctionType/duration</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunctionType/orderItem</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunctionType/orderItem/ExternalFulfillmentState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunctionType/orderItem/FunctionProcessingState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemref</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemref/ProductCode</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemref/ProductName</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemref/ProductDesc</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemref/ProductClass</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemref/ProductSpec</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemref/LineID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemref/BundleID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunctionType/transformedOrderItem</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunctionType/transformedOrderItem/ExternalFulfillmentState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunctionType/transformedOrderItem/FunctionProcessingState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/componentKey</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/calculatedStartDate</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/duration</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/ExternalFulfillmentState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/FunctionProcessingState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemref</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemref/ProductCode</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemref/ProductName</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemref/ProductDesc</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemref/ProductClass</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemref/ProductSpec</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemref/LineID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemref/BundleID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/transformedOrderItem</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/transformedOrderItem/ExternalFulfillmentState</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/transformedOrderItem/FunctionProcessingState</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
       <ord:path>/ControlData/OrderItem</ord:path>
@@ -290,43 +44,58 @@
       <ord:path>/ControlData/OrderItem/BundleID</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction</ord:path>
+      <ord:path>/ControlData/OrderItem/LineItemPayload</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/componentKey</ord:path>
+      <ord:path>/ControlData/OrderItem/RequestedDeliveryDateTime</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/calculatedStartDate</ord:path>
+      <ord:path>/ControlData/Functions</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/duration</ord:path>
+      <ord:path>/ControlData/Functions/ShipOrderFunction</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem</ord:path>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/componentKey</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef</ord:path>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/calculatedStartDate</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ProductCode</ord:path>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/duration</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ProductName</ord:path>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ProductDesc</ord:path>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ProductClass</ord:path>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductCode</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ProductSpec</ord:path>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductName</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/LineID</ord:path>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductDesc</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/BundleID</ord:path>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductClass</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductSpec</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/LineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/BundleID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
       <ord:path>/ControlData/Functions/InitiateBillingFunction</ord:path>
@@ -368,6 +137,27 @@
       <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/BundleID</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ProvisioningOrderFunction</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/componentKey</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/calculatedStartDate</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/duration</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
       <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
@@ -392,62 +182,55 @@
       <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/BundleID</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductCode</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductName</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductDesc</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductClass</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ProductSpec</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/LineID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/BundleID</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/xmlOrderData</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/OrderItem/RequestedDeliveryDateTime</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/OrderItem/LineItemPayload</ord:path>
-      <ord:xmlType>true</ord:xmlType>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</ord:path>
-    </ord:nodeExtension>
-    <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
+      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
       <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/componentKey</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/calculatedStartDate</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/duration</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ProductCode</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ProductName</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ProductDesc</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ProductClass</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ProductSpec</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/LineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/BundleID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
       <ord:path>/ControlData/Functions/InstallOrderFunction</ord:path>
@@ -489,10 +272,46 @@
       <ord:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/BundleID</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
       <ord:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/RequestedDeliveryDateTime</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
-      <ord:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/LineItemPayload</ord:path>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/InstallOrderFunction</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/InstallOrderFunction/componentKey</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/InstallOrderFunction/calculatedStartDate</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/InstallOrderFunction/duration</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/InstallOrderFunction/orderItem</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/InstallOrderFunction/orderItem/ExternalFulfillmentState</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/InstallOrderFunction/orderItem/FunctionProcessingState</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/InstallOrderFunction/transformedOrderItem</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/InstallOrderFunction/transformedOrderItem/ExternalFulfillmentState</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/InstallOrderFunction/transformedOrderItem/FunctionProcessingState</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderFulfillmentState</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/xmlOrderData</ord:path>
     </ord:nodeExtension>
     <ord:nodeExtension>
       <ord:path>/ControlData/OrderItem/ParentLineID</ord:path>
@@ -500,23 +319,46 @@
     <ord:nodeExtension>
       <ord:path>/ControlData/OrderItem/RootParentLineID</ord:path>
     </ord:nodeExtension>
-    <ord:orderData>
-      <com:entity>TestCOMProject</com:entity>
-      <com:entityType>xsd</com:entityType>
-      <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
-      <com:element>OrderID</com:element>
-      <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
-      <com:elementName>OrderID</com:elementName>
-      <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
-      <com:baseElement>string</com:baseElement>
-      <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
-    </ord:orderData>
+    <ord:nodeExtension>
+      <ord:path>/OrderID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/ParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/FulfillBillingFunction/orderItem/orderItemRef/RootParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/ParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/RootParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/ParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ShipOrderFunction/orderItem/orderItemRef/RootParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/ParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/InitiateBillingFunction/orderItem/orderItemRef/RootParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/ParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/Functions/ProvisioningOrderFunction/orderItem/orderItemRef/RootParentLineID</ord:path>
+    </ord:nodeExtension>
     <ord:orderData>
       <com:entity>TestCOMProject</com:entity>
       <com:entityType>xsd</com:entityType>
       <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
       <com:element>ControlData</com:element>
       <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+      <com:elementName>ControlData</com:elementName>
       <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
       <com:baseElement>(Reusable Structure)</com:baseElement>
       <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
@@ -526,9 +368,109 @@
         <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
         <com:element>ControlData/OrderItem</com:element>
         <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+        <com:elementName>OrderItem</com:elementName>
         <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
         <com:baseElement>OrderItemType</com:baseElement>
         <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:baseNamespace>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductCode</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductCode</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductName</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductName</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductDesc</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductDesc</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductClass</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductClass</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductSpec</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductSpec</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/LineID</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>LineID</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/BundleID</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>BundleID</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/RequestedDeliveryDateTime</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>RequestedDeliveryDateTime</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>dateTime</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/LineItemPayload</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>LineItemPayload</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>(Local Structure)</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
         <ord:childNode>
           <com:entity>TestCOMProject</com:entity>
           <com:entityType>xsd</com:entityType>
@@ -552,6 +494,343 @@
           <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
         </ord:childNode>
       </ord:childNode>
+      <ord:childNode>
+        <com:entity>TestCOMProject</com:entity>
+        <com:entityType>xsd</com:entityType>
+        <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+        <com:element>ControlData/Functions</com:element>
+        <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+        <com:elementName>Functions</com:elementName>
+        <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+        <com:baseElement>(Local Structure)</com:baseElement>
+        <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/Functions/FulfillBillingFunction</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>FulfillBillingFunction</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>FunctionType</com:baseElement>
+          <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:baseNamespace>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/FulfillBillingFunction/componentKey</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>componentKey</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>string</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/FulfillBillingFunction/calculatedStartDate</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>calculatedStartDate</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>dateTime</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/FulfillBillingFunction/duration</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>duration</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>string</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/FulfillBillingFunction/orderItem</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>orderItem</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>(Local Structure)</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+            <ord:childRefNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>com.mslv.studio.provisioning.order.referenceDataTypeNode</com:relationship>
+              <com:element>/ControlData/OrderItem</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.orderTemplateNode</com:elementType>
+              <ord:name>orderItemRef</ord:name>
+            </ord:childRefNode>
+          </ord:childNode>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/Functions/InitiateBillingFunction</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>InitiateBillingFunction</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>FunctionType</com:baseElement>
+          <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:baseNamespace>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/InitiateBillingFunction/componentKey</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>componentKey</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>string</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/InitiateBillingFunction/calculatedStartDate</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>calculatedStartDate</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>dateTime</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/InitiateBillingFunction/duration</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>duration</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>string</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/InitiateBillingFunction/orderItem</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>orderItem</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>(Local Structure)</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+            <ord:childRefNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>com.mslv.studio.provisioning.order.referenceDataTypeNode</com:relationship>
+              <com:element>/ControlData/OrderItem</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.orderTemplateNode</com:elementType>
+              <ord:name>orderItemRef</ord:name>
+            </ord:childRefNode>
+          </ord:childNode>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/Functions/ProvisioningOrderFunction</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProvisioningOrderFunction</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>FunctionType</com:baseElement>
+          <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:baseNamespace>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/ProvisioningOrderFunction/componentKey</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>componentKey</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>string</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/ProvisioningOrderFunction/calculatedStartDate</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>calculatedStartDate</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>dateTime</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/ProvisioningOrderFunction/duration</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>duration</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>string</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/ProvisioningOrderFunction/orderItem</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>orderItem</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>(Local Structure)</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+            <ord:childRefNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>com.mslv.studio.provisioning.order.referenceDataTypeNode</com:relationship>
+              <com:element>/ControlData/OrderItem</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.orderTemplateNode</com:elementType>
+              <ord:name>orderItemRef</ord:name>
+            </ord:childRefNode>
+          </ord:childNode>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/Functions/ShipOrderFunction</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ShipOrderFunction</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>FunctionType</com:baseElement>
+          <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:baseNamespace>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/ShipOrderFunction/componentKey</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>componentKey</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>string</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/ShipOrderFunction/calculatedStartDate</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>calculatedStartDate</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>dateTime</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/ShipOrderFunction/duration</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>duration</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>string</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/ShipOrderFunction/orderItem</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>orderItem</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>(Local Structure)</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+            <ord:childRefNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>com.mslv.studio.provisioning.order.referenceDataTypeNode</com:relationship>
+              <com:element>/ControlData/OrderItem</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.orderTemplateNode</com:elementType>
+              <ord:name>orderItemRef</ord:name>
+            </ord:childRefNode>
+          </ord:childNode>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>TestCOMProject</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/Functions/InstallOrderFunction</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>InstallOrderFunction</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+          <com:baseElement>FunctionType</com:baseElement>
+          <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:baseNamespace>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/InstallOrderFunction/componentKey</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>componentKey</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>string</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/InstallOrderFunction/calculatedStartDate</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>calculatedStartDate</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>dateTime</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/InstallOrderFunction/duration</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>duration</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>string</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+          </ord:childNode>
+          <ord:childNode>
+            <com:entity>TestCOMProject</com:entity>
+            <com:entityType>xsd</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+            <com:element>ControlData/Functions/InstallOrderFunction/orderItem</com:element>
+            <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+            <com:elementName>orderItem</com:elementName>
+            <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+            <com:baseElement>(Local Structure)</com:baseElement>
+            <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+            <ord:childRefNode>
+              <com:entity>TestCOMOrder</com:entity>
+              <com:entityType>order</com:entityType>
+              <com:relationship>com.mslv.studio.provisioning.order.referenceDataTypeNode</com:relationship>
+              <com:element>/ControlData/OrderItem</com:element>
+              <com:elementType>com.mslv.studio.provisioning.order.orderTemplateNode</com:elementType>
+              <ord:name>orderItemRef</ord:name>
+            </ord:childRefNode>
+          </ord:childNode>
+        </ord:childNode>
+      </ord:childNode>
+    </ord:orderData>
+    <ord:orderData>
+      <com:entity>TestCOMProject</com:entity>
+      <com:entityType>xsd</com:entityType>
+      <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+      <com:element>OrderID</com:element>
+      <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+      <com:elementName>OrderID</com:elementName>
+      <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/TestCOMProject/TestCOMProject</com:namespace>
+      <com:baseElement>string</com:baseElement>
+      <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
     </ord:orderData>
   </ord:orderTemplate>
   <ord:rule name="null_rule"/>
