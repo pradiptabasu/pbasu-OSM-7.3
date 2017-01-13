@@ -33,6 +33,16 @@
       <com:entityType>orderComponentSpec</com:entityType>
       <com:relationship>oracle.communications.sce.osm.orchestration.productSpec.orchPlanComponent</com:relationship>
       <processingDuration/>
+      <condition name="notForproductCodeABC">
+        <booleanExpression xsi:type="osm:XqueryExpressionRuleType">
+          <osm:xquery>declare namespace osm=&quot;http://xmlns.oracle.com/communications/ordermanagement/model&quot;;&#xD;
+declare namespace im=&quot;testComProject.com&quot;;&#xD;
+fn:boolean&#xD;
+(&#xD;
+(osm:properties/im:ProductCode/text()=&quot;ABC&quot;)&#xD;
+)</osm:xquery>
+        </booleanExpression>
+      </condition>
     </component>
     <component>
       <com:entity>InitiateBillingFunction</com:entity>
