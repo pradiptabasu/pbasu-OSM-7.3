@@ -39,7 +39,7 @@
 declare namespace im=&quot;testComProject.com&quot;;&#xD;
 fn:boolean&#xD;
 (&#xD;
-(osm:properties/im:ProductCode/text()=&quot;ABC&quot;)&#xD;
+(osm:properties/im:ProductCode/text()!=&quot;ABC&quot;)&#xD;
 )</osm:xquery>
         </booleanExpression>
       </condition>
