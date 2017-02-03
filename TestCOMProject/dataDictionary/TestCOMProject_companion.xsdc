@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns="http://www.mslv.com/studio/core/model/common" xmlns:data="http://www.oracle.com/communications/studio/core/model/common/data" xmlns:layout="http://xmlns.oracle.com/communications/sce/poms/model/layout" xmlns:poms="http://xmlns.oracle.com/communications/sce/poms/model/poms" xmlns:provisioning="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:specification="http://www.mslv.com/studio/inventory/model/specification" xsi:type="com:dataDictionaryCompanionType" name="TestCOMProject_companion">
   <com:displayName>TestCOMProject</com:displayName>
-  <com:saveVersion>27</com:saveVersion>
+  <com:saveVersion>28</com:saveVersion>
   <com:id>5KrHlLICQVuwkbU3VfxN9g</com:id>
   <com:dataDictionaryNode>
     <com:entity>TestCOMProject</com:entity>
@@ -2680,218 +2680,60 @@
     <com:entity>TestCOMProject</com:entity>
     <com:entityType>xsd</com:entityType>
     <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
-    <com:element>InstallOrderFunction</com:element>
-    <com:elementType>InstallOrderFunction</com:elementType>
-    <com:baseElement>FulfillmentFunctionType</com:baseElement>
-    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
-    <com:dataElementId>InstallOrderFunction</com:dataElementId>
-    <com:displayName>InstallOrderFunction</com:displayName>
+    <com:element>OrderStatus</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>OrderStatus</com:dataElementId>
+    <com:displayName lang="en"></com:displayName>
+    <com:displayName>Order Status</com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType">
+      <provisioning:significant>true</provisioning:significant>
+    </com:extension>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
     <com:dataDictionaryDetails>
       <com:detail xsi:type="data:dataElementCommonDetail">
-        <com:id>pSKdsL+FSx6n1sLryTWSyQ</com:id>
+        <com:id>WNKpc-EgSsuF+xyvkR8CLw</com:id>
         <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
-        <data:dataElementId>InstallOrderFunction</data:dataElementId>
+        <data:dataElementId>OrderStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
         <data:key></data:key>
         <data:deprecated>false</data:deprecated>
         <data:abstract>false</data:abstract>
-        <data:minMultiplicity>0</data:minMultiplicity>
-      </com:detail>
-    </com:dataDictionaryDetails>
-  </com:dataDictionaryNode>
-  <com:dataDictionaryNode>
-    <com:entity>TestCOMProject</com:entity>
-    <com:entityType>xsd</com:entityType>
-    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
-    <com:element>InstallOrderFunction/componentKey</com:element>
-    <com:elementType>(Local Structure)</com:elementType>
-    <com:baseElement>string</com:baseElement>
-    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
-    <com:dataElementId>InstallOrderFunction/componentKey</com:dataElementId>
-    <com:dataDictionaryDetails>
-      <com:detail xsi:type="data:dataElementCommonDetail">
-        <com:id>ZJZT3mc4--+pQyoH---3wA</com:id>
-        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
-        <data:dataElementId>InstallOrderFunction/componentKey</data:dataElementId>
-        <data:defaultValue></data:defaultValue>
-        <data:key></data:key>
-        <data:deprecated>false</data:deprecated>
         <data:sensitive>false</data:sensitive>
         <data:minLength>0</data:minLength>
-        <data:maxLength>1000</data:maxLength>
-        <data:minMultiplicity>1</data:minMultiplicity>
-        <data:maxMultiplicity>1</data:maxMultiplicity>
-      </com:detail>
-    </com:dataDictionaryDetails>
-  </com:dataDictionaryNode>
-  <com:dataDictionaryNode>
-    <com:entity>TestCOMProject</com:entity>
-    <com:entityType>xsd</com:entityType>
-    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
-    <com:element>InstallOrderFunction/calculatedStartDate</com:element>
-    <com:elementType>(Local Structure)</com:elementType>
-    <com:baseElement>calculatedStartDate</com:baseElement>
-    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
-    <com:dataElementId>InstallOrderFunction/calculatedStartDate</com:dataElementId>
-    <com:dataDictionaryDetails>
-      <com:detail xsi:type="data:dataElementCommonDetail">
-        <com:id>KbRkCjE2--+M---z--+yXA</com:id>
-        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
-        <data:dataElementId>InstallOrderFunction/calculatedStartDate</data:dataElementId>
-        <data:key></data:key>
-        <data:deprecated>false</data:deprecated>
+        <data:maxLength>40</data:maxLength>
         <data:minMultiplicity>0</data:minMultiplicity>
         <data:maxMultiplicity>1</data:maxMultiplicity>
       </com:detail>
-    </com:dataDictionaryDetails>
-  </com:dataDictionaryNode>
-  <com:dataDictionaryNode>
-    <com:entity>TestCOMProject</com:entity>
-    <com:entityType>xsd</com:entityType>
-    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
-    <com:element>InstallOrderFunction/duration</com:element>
-    <com:elementType>(Local Structure)</com:elementType>
-    <com:baseElement>duration</com:baseElement>
-    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
-    <com:dataElementId>InstallOrderFunction/duration</com:dataElementId>
-    <com:dataDictionaryDetails>
-      <com:detail xsi:type="data:dataElementCommonDetail">
-        <com:id>--+FrK0y--+5--+WRDkWxg</com:id>
-        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
-        <data:dataElementId>InstallOrderFunction/duration</data:dataElementId>
-        <data:key></data:key>
-        <data:deprecated>false</data:deprecated>
-        <data:minMultiplicity>0</data:minMultiplicity>
-        <data:maxMultiplicity>1</data:maxMultiplicity>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>om6fq5sKSJmDX2QzWSa3qA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>OrderStatus</data:dataElementId>
       </com:detail>
-    </com:dataDictionaryDetails>
-  </com:dataDictionaryNode>
-  <com:dataDictionaryNode>
-    <com:entity>TestCOMProject</com:entity>
-    <com:entityType>xsd</com:entityType>
-    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
-    <com:element>InstallOrderFunction/orderItem</com:element>
-    <com:elementType>(Local Structure)</com:elementType>
-    <com:baseElement>(Local Structure)</com:baseElement>
-    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
-    <com:dataElementId>InstallOrderFunction/orderItem</com:dataElementId>
-    <com:dataDictionaryDetails>
-      <com:detail xsi:type="data:dataElementCommonDetail">
-        <com:id>---C2UVz--+fBtgNjqwB6Q</com:id>
-        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
-        <data:dataElementId>InstallOrderFunction/orderItem</data:dataElementId>
-        <data:defaultValue></data:defaultValue>
-        <data:key></data:key>
-        <data:deprecated>false</data:deprecated>
-        <data:sensitive>false</data:sensitive>
-        <data:minLength>0</data:minLength>
-        <data:maxLength>-1</data:maxLength>
-        <data:minMultiplicity>0</data:minMultiplicity>
-        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>5qp-Ol2bS2y1w+Oqu5VK6w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>OrderStatus</data:dataElementId>
       </com:detail>
-    </com:dataDictionaryDetails>
-  </com:dataDictionaryNode>
-  <com:dataDictionaryNode>
-    <com:entity>TestCOMProject</com:entity>
-    <com:entityType>xsd</com:entityType>
-    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
-    <com:element>InstallOrderFunction/orderItem/ExternalFulfillmentState</com:element>
-    <com:elementType>(Local Structure)</com:elementType>
-    <com:baseElement>ExternalFulfillmentState</com:baseElement>
-    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
-    <com:dataElementId>InstallOrderFunction/orderItem/ExternalFulfillmentState</com:dataElementId>
-    <com:dataDictionaryDetails>
-      <com:detail xsi:type="data:dataElementCommonDetail">
-        <com:id>---J---Y--+S--+cJ6ZnuQ</com:id>
-        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
-        <data:dataElementId>InstallOrderFunction/orderItem/ExternalFulfillmentState</data:dataElementId>
-        <data:key></data:key>
-        <data:deprecated>false</data:deprecated>
-        <data:minMultiplicity>0</data:minMultiplicity>
-        <data:maxMultiplicity>1</data:maxMultiplicity>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>jojFYeGgTUKhfsLSbCcVpA</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>OrderStatus</data:dataElementId>
+        <layout:hints/>
       </com:detail>
-    </com:dataDictionaryDetails>
-  </com:dataDictionaryNode>
-  <com:dataDictionaryNode>
-    <com:entity>TestCOMProject</com:entity>
-    <com:entityType>xsd</com:entityType>
-    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
-    <com:element>InstallOrderFunction/orderItem/FunctionProcessingState</com:element>
-    <com:elementType>(Local Structure)</com:elementType>
-    <com:baseElement>OrderComponentOrderItemProcessingState</com:baseElement>
-    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
-    <com:dataElementId>InstallOrderFunction/orderItem/FunctionProcessingState</com:dataElementId>
-    <com:dataDictionaryDetails>
-      <com:detail xsi:type="data:dataElementCommonDetail">
-        <com:id>qxBQcuxo--+E---2fk8FEA</com:id>
-        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
-        <data:dataElementId>InstallOrderFunction/orderItem/FunctionProcessingState</data:dataElementId>
-        <data:key></data:key>
-        <data:deprecated>false</data:deprecated>
-        <data:minMultiplicity>0</data:minMultiplicity>
-        <data:maxMultiplicity>1</data:maxMultiplicity>
+      <com:detail xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" query="" queryEnabled="false" valueEnabled="false">
+        <com:id>Hjs6M+9qRuGfmElZWyrAYQ</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+        <data:dataElementId>OrderStatus</data:dataElementId>
       </com:detail>
-    </com:dataDictionaryDetails>
-  </com:dataDictionaryNode>
-  <com:dataDictionaryNode>
-    <com:entity>TestCOMProject</com:entity>
-    <com:entityType>xsd</com:entityType>
-    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
-    <com:element>InstallOrderFunction/transformedOrderItem</com:element>
-    <com:elementType>(Local Structure)</com:elementType>
-    <com:baseElement>transformedOrderItem</com:baseElement>
-    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
-    <com:dataElementId>InstallOrderFunction/transformedOrderItem</com:dataElementId>
-    <com:dataDictionaryDetails>
-      <com:detail xsi:type="data:dataElementCommonDetail">
-        <com:id>tOV8tul8--+ZXNBK---1Dg</com:id>
-        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
-        <data:dataElementId>InstallOrderFunction/transformedOrderItem</data:dataElementId>
-        <data:key></data:key>
-        <data:deprecated>false</data:deprecated>
-        <data:minMultiplicity>0</data:minMultiplicity>
-        <data:maxMultiplicity>-1</data:maxMultiplicity>
-      </com:detail>
-    </com:dataDictionaryDetails>
-  </com:dataDictionaryNode>
-  <com:dataDictionaryNode>
-    <com:entity>TestCOMProject</com:entity>
-    <com:entityType>xsd</com:entityType>
-    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
-    <com:element>InstallOrderFunction/transformedOrderItem/ExternalFulfillmentState</com:element>
-    <com:elementType>(Local Structure)</com:elementType>
-    <com:baseElement>ExternalFulfillmentState</com:baseElement>
-    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
-    <com:dataElementId>InstallOrderFunction/transformedOrderItem/ExternalFulfillmentState</com:dataElementId>
-    <com:dataDictionaryDetails>
-      <com:detail xsi:type="data:dataElementCommonDetail">
-        <com:id>5EU-OutO--+O---2--+F7Q</com:id>
-        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
-        <data:dataElementId>InstallOrderFunction/transformedOrderItem/ExternalFulfillmentState</data:dataElementId>
-        <data:key></data:key>
-        <data:deprecated>false</data:deprecated>
-        <data:minMultiplicity>0</data:minMultiplicity>
-        <data:maxMultiplicity>1</data:maxMultiplicity>
-      </com:detail>
-    </com:dataDictionaryDetails>
-  </com:dataDictionaryNode>
-  <com:dataDictionaryNode>
-    <com:entity>TestCOMProject</com:entity>
-    <com:entityType>xsd</com:entityType>
-    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
-    <com:element>InstallOrderFunction/transformedOrderItem/FunctionProcessingState</com:element>
-    <com:elementType>(Local Structure)</com:elementType>
-    <com:baseElement>OrderComponentOrderItemProcessingState</com:baseElement>
-    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
-    <com:dataElementId>InstallOrderFunction/transformedOrderItem/FunctionProcessingState</com:dataElementId>
-    <com:dataDictionaryDetails>
-      <com:detail xsi:type="data:dataElementCommonDetail">
-        <com:id>--+2gw5c--+C7qQd---W5A</com:id>
-        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
-        <data:dataElementId>InstallOrderFunction/transformedOrderItem/FunctionProcessingState</data:dataElementId>
-        <data:key></data:key>
-        <data:deprecated>false</data:deprecated>
-        <data:minMultiplicity>0</data:minMultiplicity>
-        <data:maxMultiplicity>1</data:maxMultiplicity>
+      <com:detail xsi:type="specification:CharElementDetailType">
+        <com:id>73AK+CWWRoi6HzDVHTRnhQ</com:id>
+        <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+        <data:dataElementId>OrderStatus</data:dataElementId>
+        <specification:startTimestamp>0</specification:startTimestamp>
+        <specification:endTimestamp>0</specification:endTimestamp>
       </com:detail>
     </com:dataDictionaryDetails>
   </com:dataDictionaryNode>

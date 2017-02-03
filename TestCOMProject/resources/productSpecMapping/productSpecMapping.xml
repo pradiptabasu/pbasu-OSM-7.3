@@ -9,7 +9,7 @@ This file provides a sample mapping that can be used in a Data Instance Provider
  		
  		<qualifiedName>{TestModelProject/1.0.0.0.0}DSL</qualifiedName>
  		
- 		<action name="DSL">{TestModelProject/1.0.0.0.0}DSL</action>
+ 		<action>{TestModelProject/1.0.0.0.0}DSL</action>
 		
 		<fulfillmentPattern>Broadband.Product.Spec</fulfillmentPattern>
 	</productSpec>
@@ -17,7 +17,7 @@ This file provides a sample mapping that can be used in a Data Instance Provider
  		
  		<qualifiedName>{TestModelProject/1.0.0.0.0}MOBILE</qualifiedName>
  		
- 		<action name="Mobile">{TestModelProject/1.0.0.0.0}MOBILE</action>
+ 		<action>{TestModelProject/1.0.0.0.0}MOBILE</action>
 		
 		<fulfillmentPattern>Mobile.Product.Spec</fulfillmentPattern>
 	</productSpec>

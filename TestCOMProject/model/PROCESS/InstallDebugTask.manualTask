@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aut="http://xmlns.oracle.com/communications/sce/osm/model/process/task/automation" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:task="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xmlns="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xsi:type="task:manualTaskType" name="InstallDebugTask">
   <com:displayName>InstallDebugTask</com:displayName>
-  <com:saveVersion>3</com:saveVersion>
-  <com:id>CbKdQgI+T6GMvavrZcB8xA</com:id>
+  <com:saveVersion>2</com:saveVersion>
+  <com:id>YHxGA2NpRJaV7fuHa0AoaQ</com:id>
   <task:orderType>
     <com:entity>TestCOMOrder</com:entity>
     <com:entityType>order</com:entityType>
@@ -238,6 +238,13 @@
     <com:element>/OrderID</com:element>
     <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
   </task:orderTemplateRef>
+  <task:orderTemplateRef>
+    <com:entity>TestCOMOrder</com:entity>
+    <com:entityType>order</com:entityType>
+    <com:relationship>ora.task.orderTemplateRef</com:relationship>
+    <com:element>/OrderStatus</com:element>
+    <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+  </task:orderTemplateRef>
   <task:viewNodeExtension>
     <task:path>/ControlData</task:path>
     <task:editable>true</task:editable>
@@ -390,6 +397,11 @@
   </task:viewNodeExtension>
   <task:viewNodeExtension>
     <task:path>/ControlData/Functions/InstallOrderFunction/orderItem/orderItemRef/RootParentLineID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/OrderStatus</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>

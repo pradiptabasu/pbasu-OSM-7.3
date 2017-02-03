@@ -252,6 +252,13 @@
     <com:element>/OrderID</com:element>
     <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
   </task:orderTemplateRef>
+  <task:orderTemplateRef>
+    <com:entity>TestCOMOrder</com:entity>
+    <com:entityType>order</com:entityType>
+    <com:relationship>ora.task.orderTemplateRef</com:relationship>
+    <com:element>/OrderStatus</com:element>
+    <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+  </task:orderTemplateRef>
   <task:viewNodeExtension>
     <task:path>/ControlData</task:path>
     <task:editable>true</task:editable>
@@ -414,6 +421,11 @@
   </task:viewNodeExtension>
   <task:viewNodeExtension>
     <task:path>/ControlData/OrderItem/RootParentLineID</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/OrderStatus</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>
